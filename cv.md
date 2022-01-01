@@ -16,7 +16,7 @@
                            htmlacademy
 
 **2021**                 "Webfow"\
-                           self education\
+                           self education  
 
 -----------------------------
 
@@ -32,3 +32,20 @@ Russian - native
 English - pre Intermidiate
 
 -----------------------------
+
+
+**Experience**
+
+**2005 - 2014**    "Advertising manager"  
+
+**2015 - 2020**    "Graphic designer"\
+                           freelance
+
+**2021**                 "Webfow developer"  
+                           freelance
+
+-----------------------------
+
+**About Me**  
+
+I'm a beginner frontend developer. I'm very passionate about learning a new profession. In my free time I do singing, handicrafts, spend time with my family.
