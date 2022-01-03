@@ -75,6 +75,8 @@ body {
 
 .link {
     color: #0013E6;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .about__title {
@@ -129,6 +131,16 @@ p {
 .container_70 {
     width: 70%;
 }
+
+.footer__logo {
+    min-width: 100px;
+}
+
+.section_flex-between {
+    justify-content: space-between;
+}
+
+
 
 @media (max-width: 768px) {
     .container_50 {
