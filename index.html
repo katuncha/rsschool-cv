@@ -4,9 +4,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<title>cv</title>
 </head>
 <body>
+    <div class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                  <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                  <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                  <li class="nav__item"><a href="#aboutMe" class="nav__link">About Me</a></li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <section class="section section_flex" id="contacts">
+                <div class="container_50">
+                    <div class="img-block">
+                        <img class="img-block__pfoto" src="./assets/img/my photo.jpg" alt="myPfoto">
+                    </div>
+                </div>
+                <div class="container_50">
+                    <div class="about">
+                        <h1 class="about__title">
+                            Демченко Екатерина
+                        </h1>
+                        <p class="about__text text_under">
+                            14.03.1983
+                        </p>
+                    </div>
+                    <ul class="contacts">
+                        <li class="contacts__item">+7 915 289 91 90</li>
+                        <li class="contacts__item">tg: <span class="link">@katuncha</span></li>
+                        <li class="contacts__item link">demkamark@gmail.com</li> 
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="subtitle">Education</h2>
+                <ul class="list">
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2002-2007
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                PR manager /
+                            </p>
+                            <p class="list__descript-subtittle">
+                                spbgup
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2015
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                Basic HTML CSS /
+                            </p>
+                            <p class="list__descript-subtittle">
+                                htmlacademy
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2021
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                Webfow /
+                            </p>
+                            <p class="list__descript-subtittle">
+                                self education
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section_flex" id="skills">
+                <div class="container_50">
+                    <h2 class="subtitle">Skills and Proficiency</h2>
+                    <p class="section__text">
+                        Photoshop, Illustrator, Indesign, html, css, БЭМ, webflow
+                    </p>
+                </div>
+                <div class="container_50">
+                    <h2 class="subtitle" id="languages">Languages</h2>
+                    <p class="section__text">
+                        Russian / native <br> English / pre Intermidiate
+                    </p>
+                </div>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="subtitle">Experience</h2>
+                <ul class="list">
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2005-2014
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                Advertising manager
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2015-2020
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                Graphic designer /
+                            </p>
+                            <p class="list__descript-subtittle">
+                                freelance
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="list__data">
+                            <span class="list__data-text">
+                                2021
+                            </span>
+                        </div>
+                        <div class="list__description">
+                            <p class="list__descript-tittle">
+                                Webfow developer /
+                            </p>
+                            <p class="list__descript-subtittle">
+                                freelance
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="section container_70" id="aboutMe">
+                <h2 class="subtitle">
+                    About Me
+                </h2>
+                <p class="section__text">
+                    I’m a beginner frontend developer. I’m very passionate about learning a new profession. In my free time I do singing, handicrafts, spend time with my family.
+                </p>
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="section_flex section_flex-between">
+                <div class="footer__img-wrapper">
+                    <img class="footer__logo" src="./assets/img/rs_school_js.svg" alt="logo_rs">
+                </div>
+                <div class="footer__text-wrapper">
+                    <a href="https://github.com/katuncha/rsschool-cv/tree/rsschool-cv-html" class="link">github</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     
 </body>
 </html>
