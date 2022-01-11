@@ -99,10 +99,12 @@ a {
     padding: 8px 0;
     background-color: transparent;
     border: solid 2px #BDAE82;
+    color: #BDAE82;
 }
 
 .button--color {
     background: #BDAE82;
+    color: #000000;
 }
 
 .title {
@@ -147,5 +149,32 @@ a {
     font-size: 18px;
     line-height: 36px;
     color: #ffffff;
+}
+
+.portfolio__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;  
+}
+
+.portfolio__button {
+    margin-right: 5px;
+}
+
+.portfolio__button:last-child {
+    margin-right: 0;
+}
+
+.portfolio__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.portfolio__img {
+    display: flex;
+    width: 450px;
 }
 
