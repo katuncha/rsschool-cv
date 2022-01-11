@@ -104,3 +104,48 @@ a {
 .button--color {
     background: #BDAE82;
 }
+
+.title {
+    padding: 100px 0px 60px 0px;
+    text-align: center;
+}
+
+.title__header {
+    font-family: 'Merriweather', serif;
+    color: #BDAE82;
+    font-size: 40px;
+    line-height: 80px;
+    margin: 0;   
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills__item {
+    width: 320px;
+    padding: 0 20px 8px 20px;
+    text-align: center;
+}
+
+.skills__item-img {
+    margin-bottom: 50px;
+}
+
+.skills__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.skills__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
