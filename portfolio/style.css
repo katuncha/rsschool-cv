@@ -6,6 +6,16 @@ li {
     list-style: none;
 }
 
+
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,7 +65,7 @@ a {
   }
 
 .header__hero {
-    margin-left: 80px;
+    margin-left: 60px;
 }
   
 .logo_img {
@@ -96,7 +106,7 @@ a {
     width: 220px;
     font-size: 20px;
     line-height: 40px;
-    padding: 8px 0;
+    padding: 5px 0;
     background-color: transparent;
     border: solid 2px #BDAE82;
     color: #BDAE82;
@@ -129,7 +139,12 @@ a {
 .skills__item {
     width: 320px;
     padding: 0 20px 8px 20px;
+    margin-right: 40px;
     text-align: center;
+}
+
+.skills__item:last-child {
+    margin-right: 0px;
 }
 
 .skills__item-img {
@@ -173,8 +188,39 @@ a {
     margin-bottom: 25px;
 }
 
+.portfolio__row:last-child {
+    margin-bottom: 0;
+}
+
 .portfolio__img {
     display: flex;
     width: 450px;
+    margin-right: 25px;
+}
+
+.portfolio__img:last-child {
+    margin-right: 0px;
+}
+
+.video__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 705px;
+    background: no-repeat center  url('./assets/img/video-player.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: contain;
+}
+
+.video__button {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
