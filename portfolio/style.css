@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #000000;
     font-family: 'Inter', sans-serif;
@@ -223,4 +226,43 @@ a {
     right: 0;
     text-align: center;
 }
+
+.price__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price__item {
+    width: 450px;
+    border: solid 3px #BDAE82;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.price__title {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    line-height: 56px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.price__price {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 48px;
+    color: #BDAE82;
+    margin-bottom: 20px;
+    
+}
+
+.price__text {
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
 
