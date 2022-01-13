@@ -13,215 +13,269 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container header__container">
-            <nav class="nav header__nav">
-                <div class="logo">
-                    <img class="logo__img" src="./assets/svg/logo.svg" alt="">
-                </div>
-                <div class="nav__menu">
-                    <ul class="nav__menu-list">
-                        <li class="nav__menu-item"><a href="" class="nav__menu-link">Skills</a></li>
-                        <li class="nav__menu-item"><a href="" class="nav__menu-link">Portfolio</a></li>
-                        <li class="nav__menu-item"><a href="" class="nav__menu-link">Video</a></li>
-                        <li class="nav__menu-item"><a href="" class="nav__menu-link">Price</a></li>
-                        <li class="nav__menu-item"><a href="" class="nav__menu-link">Contacts</a></li>
-                    </ul>
-                </div>
-                <div class="header__lang-switсh">
-                      <p class="en">en</p>  
-                </div>
-            </nav>
-            <section class="hero header__hero">
-                <div class="hero__content">
-                    <h1 class="hero__title">Alexa Rise</h1>
-                    <p class="hero__text">
-                        Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
-                    </p>
-                    <button class="hero__button button button--color">
-                        Hire me
-                    </button>
-                </div>
-            </section>
+    <div class="page">
+        <header class="header">
+            <div class="container header__container">
+                <nav class="nav header__nav">
+                    <div class="logo">
+                        <svg class="logo__icon">
+                            <use xlink:href="./assets/svg/sprite.svg#logo"></use>
+                        </svg>
+                    </div>
+                    <div class="nav__menu">
+                        <ul class="nav__menu-list">
+                            <li class="nav__menu-item"><a href="#skills" class="nav__menu-link">Skills</a></li>
+                            <li class="nav__menu-item"><a href="#portfolio" class="nav__menu-link">Portfolio</a></li>
+                            <li class="nav__menu-item"><a href="#video" class="nav__menu-link">Video</a></li>
+                            <li class="nav__menu-item"><a href="#price" class="nav__menu-link">Price</a></li>
+                            <li class="nav__menu-item"><a href="#contacts" class="nav__menu-link">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__lang-switсh">
+                          <a class="header__lang-switсh-item header__lang-switсh-item--active">en</a>
+                          <span class="header__lang-switсh-dash">/</span>
+                          <a class="header__lang-switсh-item">ru</a>  
+                    </div>
+                </nav>
+                <section class="hero header__hero">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Alexa Rise</h1>
+                        <p class="hero__text">
+                            Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
+                        </p>
+                        <button class="hero__button button button--color">
+                            Hire me
+                        </button>
+                    </div>
+                </section>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <section class="skills">
-                <div class="skills__content">
-                    <div class="skills__head">
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="skills" id="skills">
+                    <div class="skills__content">
+                        <div class="skills__head">
+                            <div class="title">
+                                <div class="title__wrapper">
+                                    <h2 class="title__header">Skills</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skills__item">
+                                <img class="skills__item-img" src="./assets/svg/camera 1.svg" alt="icon-camera">
+                                <h3 class="skills__title">Digital photography</h3>
+                                <p class="skills__text">
+                                    High-quality photos in the studio and on the nature
+                                </p>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__item-img" src="./assets/svg/video 1.svg" alt="icon-video">
+                                <h3 class="skills__title">Video shooting</h3>
+                                <p class="skills__text">
+                                    Capture your moments so that they always stay with you
+                                </p>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__item-img" src="./assets/svg/image 1.svg" alt="icon-image">
+                                <h3 class="skills__title">Retouch</h3>
+                                <p class="skills__text">
+                                    I strive to make photography surpass reality
+                                </p>
+                            </div>
+                            <div class="skills__item">
+                                <img class="skills__item-img" src="./assets/svg/mic 1.svg" alt="icon-mic">
+                                <h3 class="skills__title">Audio</h3>
+                                <p class="skills__text">
+                                    Professional sounds recording for video, advertising, portfolio
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+                <section class="portfolio" id="portfolio">
+                    <div class="portfolio__content">
+                        <div class="portfolio__head">
+                            <div class="title">
+                                <div class="title__wrapper">
+                                    <h2 class="title__header">Portfolio</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__buttons">
+                            <button class="button portfolio__button">
+                                Winter
+                            </button>
+                            <button class="button portfolio__button">
+                                Spring
+                            </button>
+                            <button class="button portfolio__button">
+                                Summer
+                            </button>
+                            <button class="button portfolio__button portfolio__button--active">
+                                Autumn
+                            </button>
+                        </div>
+                        <div class="portfolio__gallery">
+                            <div class="portfolio__row">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img.jpg" alt="portfolio-img">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img-1.jpg" alt="portfolio-img">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img-2.jpg" alt="portfolio-img">
+                                
+                            </div>
+                            <div class="portfolio__row">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img-3.jpg" alt="portfolio-img">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img-4.jpg" alt="portfolio-img">
+                                <img class="portfolio__img" src="./assets/img/portfolio-img-5.jpg" alt="portfolio-img">
+                            </div>     
+                        </div>
+                    </div>
+                </section>
+                <section class="video" id="video">
+                    <div class="video__head">
                         <div class="title">
-                            <h2 class="title__header">Skills</h2>
+                            <div class="title__wrapper">
+                                <h2 class="title__header">Video</h2>
+                            </div>
                         </div>
                     </div>
-                    <div class="skills__list">
-                        <div class="skills__item">
-                            <img class="skills__item-img" src="./assets/svg/camera 1.svg" alt="icon-camera">
-                            <h3 class="skills__title">Digital photography</h3>
-                            <p class="skills__text">
-                                High-quality photos in the studio and on the nature
-                            </p>
-                        </div>
-                        <div class="skills__item">
-                            <img class="skills__item-img" src="./assets/svg/video 1.svg" alt="icon-video">
-                            <h3 class="skills__title">Video shooting</h3>
-                            <p class="skills__text">
-                                Capture your moments so that they always stay with you
-                            </p>
-                        </div>
-                        <div class="skills__item">
-                            <img class="skills__item-img" src="./assets/svg/image 1.svg" alt="icon-image">
-                            <h3 class="skills__title">Retouch</h3>
-                            <p class="skills__text">
-                                I strive to make photography surpass reality
-                            </p>
-                        </div>
-                        <div class="skills__item">
-                            <img class="skills__item-img" src="./assets/svg/mic 1.svg" alt="icon-mic">
-                            <h3 class="skills__title">Audio</h3>
-                            <p class="skills__text">
-                                Professional sounds recording for video, advertising, portfolio
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-            </section>
-            <section class="portfolio">
-                <div class="portfolio__content">
-                    <div class="portfolio__head">
+                    <div class="video__content">
+                        <button class="video__button">
+                            <svg class="video__button-icon">
+                                <use xlink:href="./assets/svg/sprite.svg#Play_hover"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </section>
+                <section class="price main__price" id="price">
+                    <div class="price__head">
                         <div class="title">
-                            <h2 class="title__header">Portfolio</h2>
-                        </div> 
-                    </div>
-                    <div class="portfolio__buttons">
-                        <button class="button portfolio__button">
-                            Winter
-                        </button>
-                        <button class="button portfolio__button">
-                            Spring
-                        </button>
-                        <button class="button portfolio__button">
-                            Summer
-                        </button>
-                        <button class="button portfolio__button">
-                            Autumn
-                        </button>
-                    </div>
-                    <div class="portfolio__gallery">
-                        <div class="portfolio__row">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img.jpg" alt="portfolio-img">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img-1.jpg" alt="portfolio-img">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img-2.jpg" alt="portfolio-img">
+                            <div class="title__wrapper">
+                                <h2 class="title__header">Price</h2>
+                            </div>
                         </div>
-                        <div class="portfolio__row">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img-3.jpg" alt="portfolio-img">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img-4.jpg" alt="portfolio-img">
-                            <img class="portfolio__img" src="./assets/img/portfolio-img-5.jpg" alt="portfolio-img">
-                        </div>     
+                    </div>
+                    <div class="price__list">
+                        <div class="price__item">
+                            <p class="price__title">
+                                Standard
+                            </p>
+                            <p class="price__price">
+                                500 $
+                            </p>
+                            <div class="price__text">
+                                <span class="price__text-element">One locations</span>
+                                <span class="price__text-element">120 photos in color</span>
+                                <span class="price__text-element">12 photos in retouch</span>
+                                <span class="price__text-element">Readiness 2-3 weeks</span>
+                                <span class="price__text-element">Make up, visage</span>
+                            </div>
+                            <button class="button button--color">
+                                Order shooting
+                            </button>
+                        </div>
+                        <div class="price__item">
+                            <p class="price__title">
+                                Premium
+                            </p>
+                            <p class="price__price">
+                                700 $
+                            </p>
+                            <div class="price__text">
+                                <span class="price__text-element">One or two locations</span>
+                                <span class="price__text-element">200 photos in color</span>
+                                <span class="price__text-element">20 photos in retouch</span>
+                                <span class="price__text-element">Readiness 1-2 weeks</span>
+                                <span class="price__text-element">Make up, visage</span>
+                            </div>
+                            <button class="button button--color">
+                                Order shooting
+                            </button>
+                        </div>
+                        <div class="price__item">
+                            <p class="price__title">
+                                Gold
+                            </p>
+                            <p class="price__price">
+                                1000 $
+                            </p>
+                            <div class="price__text">
+                                <span class="price__text-element">Three locations or more</span>
+                                <span class="price__text-element">300 photos in color</span>
+                                <span class="price__text-element">50 photos in retouch</span>
+                                <span class="price__text-element">Readiness 1 week</span>
+                                <span class="price__text-element">Make up, visage, hairstyle</span>
+                            </div>
+                            <button class="button button--color">
+                                Order shooting
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="contacts main__contacts" id="contacts">
+                    <div class="contacts__content">
+                        <div class="contacts__form form">
+                            <p class="form__title">
+                                Contact me
+                            </p>
+                            <input class="form__email-field" type="email" placeholder="E-mail">
+                            <input class="form__phone-field" type="tel" placeholder="Phone">
+                            <textarea class="form__textarea" name="message" id="" placeholder="Message"></textarea>
+                            <button class="button button--color">
+                                Send message
+                            </button>
+                        </div>
+                    </div>     
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__rights">
+                        <img class="footer__rights-icon" src="./assets/svg/©.svg" alt="rights-icon">
+                        <span class="footer__rights-year">2022</span>
+                        <a href="https://github.com/katuncha" class="footer__rights-link">github</a>
+                    </div>
+                    <div class="footer__name">
+                        <a href="https://rs.school/js-stage0/" class="footer__name-link">Rolling Scopes School</a>
+                    </div>
+                    <div class="footer__social social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg class="social__link-icon">
+                                        <use xlink:href="./assets/svg/sprite.svg#inst 1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg class="social__link-icon">
+                                        <use xlink:href="./assets/svg/sprite.svg#fb 1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--twitter">
+                                    <svg class="social__link-icon">
+                                        <use xlink:href="./assets/svg/sprite.svg#tw 1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--pint">
+                                    <svg class="social__link-icon">
+                                        <use xlink:href="./assets/svg/sprite.svg#pinterest 1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-            <section class="video">
-                <div class="video__head">
-                    <div class="title">
-                        <h2 class="title__header">Video</h2>
-                    </div> 
-                </div>
-                <div class="video__content">
-                    <button class="video__button">
-                        <img class="video__button-img" src="./assets/svg/Play_hover.svg" alt="">
-                    </button>
-                </div>
-            </section>
-            <section class="price">
-                <div class="price__head">
-                    <div class="title">
-                        <h2 class="title__header">Price</h2>
-                    </div> 
-                </div>
-                <div class="price__list">
-                    <div class="price__item">
-                        <p class="price__title">
-                            Standard
-                        </p>
-                        <p class="price__price">
-                            500 $
-                        </p>
-                        <p class="price__text">
-                            One location </br>
-                            120 photos in color </br>
-                            12 photos in retouch </br>
-                            Readiness 2-3 weeks </br>
-                            Make up, visage </br>
-                        </p>
-                        <button class="button button--color">
-                            Order shooting
-                        </button>
-                    </div>
-                    <div class="price__item">
-                        <p class="price__title">
-                            Premium
-                        </p>
-                        <p class="price__price">
-                            700 $
-                        </p>
-                        <p class="price__text">
-                            One or two locations </br>
-                            200 photos in color </br>
-                            20 photos in retouch </br>
-                            Readiness 1-2 weeks </br>
-                            Make up, visage </br>
-                        </p>
-                        <button class="button button--color">
-                            Order shooting
-                        </button>
-                    </div>
-                    <div class="price__item">
-                        <p class="price__title">
-                            Gold
-                        </p>
-                        <p class="price__price">
-                            1000 $
-                        </p>
-                        <p class="price__text">
-                            Three locations or more </br>
-                            300 photos in color </br>
-                            50 photos in retouch </br>
-                            Readiness 1 week </br>
-                            Make up, visage, hairstyle </br>
-                        </p>
-                        <button class="button button--color">
-                            Order shooting
-                        </button>
-                    </div>
-                </div>
-
-            </section>
-            <section class="contacts">
-                <div class="contact__content">
-                    <p class="contact__title">
-                        Contact me
-                    </p>
-                    <div class="contact__form form">
-                        <input type="email" class="form__email-field">
-                        <input type="tel" class="form__phone-field">
-                        <textarea name="" id="" cols="30" rows="10" class="form__texarea">
-
-                        </textarea>
-                        <button class="button form__button">
-                            Send message
-                        </button>
-                    </div>
-                </div>     
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-
-        </div>
-    </footer>
     
+            </div>
+        </footer>   
+    </div>  
 </body>
 </html>
