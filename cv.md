@@ -25,3 +25,30 @@ My skills:
 * Figma, PS, Ai, Indesign
 
 ----
+Example of code:
+```
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if (mpg * fuelLeft >= distanceToPump) {
+    return true;
+  } else {
+    return false;
+  }
+};
+```
+
+----
+Links on projects:
+* https://www.korkovidov.co/
+(Webflow)
+* https://nft.dopeclvb.world/
+(Webflow)
+* https://www.madebymad.co/
+(Webflow)
+* https://www.enisey-cons.com/
+(html, css, js)
+
+----
+
+English: pre-intermediate
+
+----
